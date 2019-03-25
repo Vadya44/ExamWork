@@ -10,9 +10,19 @@ import UIKit
 
 class myTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var surnameLabel: UILabel!
+    @IBOutlet weak var subnameLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+    }
+    
+    func configure(human: Human) {
+        self.nameLabel.text = human.name
+        self.surnameLabel.text = human.surname
+        self.subnameLabel.text = human.subsurName
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

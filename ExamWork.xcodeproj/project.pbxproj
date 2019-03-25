@@ -13,6 +13,9 @@
 		15DED33F2248ECEA003F62A1 /* ExamWork.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 15DED33D2248ECEA003F62A1 /* ExamWork.xcdatamodeld */; };
 		15DED3412248ECEB003F62A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15DED3402248ECEB003F62A1 /* Assets.xcassets */; };
 		15DED3442248ECEB003F62A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15DED3422248ECEB003F62A1 /* LaunchScreen.storyboard */; };
+		15DED34C2249138E003F62A1 /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DED34B2249138E003F62A1 /* myTableViewCell.swift */; };
+		15DED34E22491621003F62A1 /* HumanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DED34D22491621003F62A1 /* HumanViewController.swift */; };
+		15DED35022492E9D003F62A1 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15DED34F22492E9D003F62A1 /* webViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		15DED3402248ECEB003F62A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15DED3432248ECEB003F62A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15DED3452248ECEB003F62A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15DED34B2249138E003F62A1 /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		15DED34D22491621003F62A1 /* HumanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanViewController.swift; sourceTree = "<group>"; };
+		15DED34F22492E9D003F62A1 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				15DED3422248ECEB003F62A1 /* LaunchScreen.storyboard */,
 				15DED3452248ECEB003F62A1 /* Info.plist */,
 				15DED33D2248ECEA003F62A1 /* ExamWork.xcdatamodeld */,
+				15DED34B2249138E003F62A1 /* myTableViewCell.swift */,
+				15DED34D22491621003F62A1 /* HumanViewController.swift */,
+				15DED34F22492E9D003F62A1 /* webViewController.swift */,
 			);
 			path = ExamWork;
 			sourceTree = "<group>";
@@ -139,8 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				15DED33F2248ECEA003F62A1 /* ExamWork.xcdatamodeld in Sources */,
+				15DED34C2249138E003F62A1 /* myTableViewCell.swift in Sources */,
 				15DED3392248ECEA003F62A1 /* ViewController.swift in Sources */,
+				15DED34E22491621003F62A1 /* HumanViewController.swift in Sources */,
 				15DED3372248ECEA003F62A1 /* AppDelegate.swift in Sources */,
+				15DED35022492E9D003F62A1 /* webViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4G7NU3343;
 				INFOPLIST_FILE = ExamWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +320,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Z4G7NU3343;
 				INFOPLIST_FILE = ExamWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

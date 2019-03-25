@@ -7,11 +7,20 @@
 //
 
 import UIKit
+import WebKit
 
-class webViewController: UIViewController {
+class webViewController: UIViewController, WKUIDelegate {
 
+    @IBOutlet weak var webView: WKWebView!
+    @IBAction func cancelButtonClicked(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.webView.uiDelegate = self
+        let url = URL(string: "http://www.sourcefreeze.com");
+        let requestObj = URLRequest(url: url!);
+        webView.load(requestObj);
 
         // Do any additional setup after loading the view.
     }
